@@ -1,0 +1,43 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="disk-cleanup.png" />
+    <None Remove="icons8-domaine-50.png" />
+    <None Remove="icons8-historique-des-commandes-64.png" />
+    <None Remove="icons8-mettre-à-jour-la-rotation-à-gauche-50.png" />
+    <None Remove="icon\disk-cleanup.png" />
+    <None Remove="icon\icons8-disk-cleanup-48.png" />
+    <None Remove="icon\icons8-domaine-50.png" />
+    <None Remove="icon\icons8-historique-des-commandes-64.png" />
+    <None Remove="icon\icons8-mettre-à-jour-la-rotation-à-gauche-50.png" />
+    <None Remove="icon\nettoyage.ico" />
+    <None Remove="nettoyage.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="disk-cleanup.png" />
+    <Resource Include="icons8-domaine-50.png" />
+    <Resource Include="icons8-historique-des-commandes-64.png" />
+    <Resource Include="icons8-mettre-à-jour-la-rotation-à-gauche-50.png" />
+    <Resource Include="icon\disk-cleanup.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="icon\icons8-domaine-50.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="icon\icons8-historique-des-commandes-64.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="icon\icons8-mettre-à-jour-la-rotation-à-gauche-50.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="nettoyage.ico" />
+  </ItemGroup>
+
+</Project>
